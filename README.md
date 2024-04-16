@@ -8,7 +8,7 @@
 
 La extensión “Regla de 3” ya está disponible en la Chrome Web Store. Para instalarla, sigue estos pasos:
 
-1. Visita el enlace de la extensión en la Chrome Web Store.
+1. Visita el [enlace](https://chromewebstore.google.com/detail/pjdhmokbkjedajookmkadhanpombpinb) de la extensión en la Chrome Web Store.
 2. Haz clic en el botón “Agregar a Chrome”.
 3. Confirma la instalación en el cuadro de diálogo que aparece.
 
