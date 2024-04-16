@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Regla de 3",
     "version": "1.0",
-    "description": "Esta extensión fue desarrollada por Federico Vega, para calcular la regla de 3 y lograr hacer relaciones numéricas rápidas.",
+    "description": "Extensión para calcular la regla de 3 y lograr relaciones numéricas rápidas.",
     "action": {
         "default_popup": "popup.html"
     },
