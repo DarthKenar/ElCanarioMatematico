@@ -6,14 +6,15 @@
 
 ## Instalación
 
-1. Descarga el código fuente de este repositorio.
-2. Abre Google Chrome y ve a `chrome://extensions`.
-3. Habilita el modo de desarrollador en la esquina superior derecha.
-4. Haz clic en "Cargar descomprimida" y selecciona la carpeta del código fuente que descargaste.
+La extensión “Regla de 3” ya está disponible en la Chrome Web Store. Para instalarla, sigue estos pasos:
+
+1. Visita el enlace de la extensión en la Chrome Web Store.
+2. Haz clic en el botón “Agregar a Chrome”.
+3. Confirma la instalación en el cuadro de diálogo que aparece.
 
 ## Uso
 
-1. Haz clic en el icono de la extensión en la barra de herramientas de Chrome.
+1. Haz clic en el icono de la extensión “Regla de 3” en la barra de herramientas de Chrome.
 2. Introduce los valores en los campos correspondientes.
 3. La extensión calculará automáticamente el resultado según la regla de 3.
 
