@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Regla de 3 Simple",
-    "version": "1.1",
+    "version": "v1.2.0",
     "description": "Extensión para calcular la regla de tres simple y lograr relaciones numéricas rápidas.",
     "action": {
         "default_popup": "popup.html"
