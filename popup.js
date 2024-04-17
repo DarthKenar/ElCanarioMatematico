@@ -29,3 +29,15 @@ clear.addEventListener("click", function(){
     result1.value = ""
     result2.value = ""
 })
+
+const mainItems = document.querySelectorAll(
+    '.main-item'
+  );
+  
+  mainItems.forEach((mainItem) => {
+    mainItem.addEventListener('click', () => {
+      mainItem.classList.toggle(
+        'main-item--open'
+      );
+    })
+  });
