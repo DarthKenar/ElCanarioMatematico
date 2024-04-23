@@ -1,14 +1,48 @@
+.group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
-
-.pair-container {
+.main {
+    border: 2px solid var(--background-item);;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px 0px;
+}
+.calc-group {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.titles-calc-group {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
+    justify-content: space-between;
+    padding: 12px 0px ;
 }
+
+.values-calc-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+/* PEGADO */
 
 :root {
     --primary-item: #3B3E40;
@@ -22,6 +56,16 @@
 * {
     font-size: 16px;
     font-family: "Poppins", serif;
+}
+
+.pair-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -39,7 +83,6 @@ body {
 .accordion-container {
     top: 0;
     min-width: 660px;
-    padding: 16px;
     overflow: hidden;
     background-color: var(--background-body);
 }
@@ -54,6 +97,8 @@ body {
     gap: 8px;
     transition: all ease-in-out 0.25s;
     color: var(--item-non-hover);
+    padding: 12px;
+    margin: 12px;
 }
 
 input {
@@ -61,6 +106,18 @@ input {
     padding: 12px;
     color: var(--item-non-hover);
     font-size: large;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.block {
+    min-width: 255px;
+}
+
+.block-left {
+    min-width: 40px;
 }
 
 button {
@@ -84,23 +141,30 @@ button:hover {
 header {
     width: 100%;
     border-radius: 8px;
-    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
     color: var(--item-non-hover);
+    padding: 12px;
+    border-radius: 0%;
+}
+
+.average {
+    font-weight: bolder;
 }
 
 section {
     border-radius: 8px;
-    padding: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 8px;
     color: var(--item-non-hover);
+}
+
+button svg {
+    pointer-events: none;
 }
 
 
@@ -197,10 +261,10 @@ transform: rotate(-90deg);
 }
 
 .line-vertical {
-display: block;
-background-color: var(--background-item);
-width: 2px;
-height: 48px;
+    display: block;
+    background-color: var(--background-item);
+    width: 2px;
+    height: 48px;
 }
 
 .accordion-container > ul > 
@@ -210,10 +274,10 @@ li:last-child > .line-vertical {
 }
 
 .line-horizontal {
-display: block;
-background-color: var(--background-item);
-height: 2px;
-min-width: 12px;
+    display: block;
+    background-color: var(--background-item);
+    height: 2px;
+    min-width: 12px;
 }
 
 .background-none {
@@ -222,4 +286,24 @@ min-width: 12px;
 
 .background-none:hover {
     background-color: var(--background-body)
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--background-body);
+    color: var(--item-non-hover);
+}
+
+.pair-container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
 }

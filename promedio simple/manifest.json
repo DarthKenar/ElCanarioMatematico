@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Promedio Simple",
+    "version": "1.0.0",
+    "description": "Extensión para calcular promedios de manera rápida.",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/favicon-16x16.png",
+        "32": "images/favicon-32x32.png",
+        "96": "images/favicon-96x96.png",
+        "128": "images/favicon-128x128.png",
+        "256": "images/favicon-256x256.png"
+    }
+}
