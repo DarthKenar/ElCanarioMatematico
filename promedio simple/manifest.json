@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Promedio Simple",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Extensión para calcular promedios de manera rápida.",
     "action": {
         "default_popup": "popup.html"
