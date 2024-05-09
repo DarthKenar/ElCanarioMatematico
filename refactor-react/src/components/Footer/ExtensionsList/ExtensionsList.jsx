@@ -10,7 +10,7 @@ import {
 import "./ExtensionsList.css"
 import { MdCheckCircle, MdSettings } from "react-icons/md";
 import ExtensionsListItem from "./ExtensionListItem/ExtensionListItem";
-import ExtensionListItemCafesito from "./ExtemsionListItemCafesito/ExtensionListItemCafesito";
+import ExtensionListItemCafesito from "./ExtensionListItemCafesito/ExtensionListItemCafesito";
 export default function ExtensionsList(){
   return(
     <Accordion allowToggle>
