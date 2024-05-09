@@ -1,0 +1,11 @@
+.svg-title {
+    margin-right: 10px;
+}
+
+li:hover {
+    background-image: linear-gradient(to right, var(--hover-button-color), transparent);
+}
+
+li {
+    margin-left: 25px;
+}
