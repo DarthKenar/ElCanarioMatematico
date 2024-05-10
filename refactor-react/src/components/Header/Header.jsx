@@ -1,20 +1,23 @@
 import React from "react";
 import "./Header.css"
 import { Flex, Box, Spacer } from '@chakra-ui/react'
+import PortfolioLogoButton from "./PortfolioLogoButton/PortfolioLogoButton";
+import ExtensionTitle from "./ExtensionTitle/ExtensionTitle";
+import CrazySmile from "./CrazySmile/CrazySmile.jsx";
 
 export default function Header(){
     return(
         <Flex>
             <Box>
-                <button>A</button>
+                <PortfolioLogoButton/>
             </Box>
             <Spacer/>
             <Box>
-                <button>B</button>
+                <ExtensionTitle name="Esto es un Título"/>
             </Box>
             <Spacer/>
             <Box>
-                <button>C</button>
+                <CrazySmile/>
             </Box>
         </Flex>
     )
