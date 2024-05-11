@@ -1,3 +1,8 @@
 :root {
   --hover-button-color: #f1eef1;
 }
+body {
+  width: 740px;
+  border-color: red;
+  border-width: 1px;
+}
