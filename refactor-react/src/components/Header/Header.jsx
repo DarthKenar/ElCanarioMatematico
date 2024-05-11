@@ -4,10 +4,11 @@ import { Flex, Box, Spacer } from '@chakra-ui/react'
 import PortfolioLogoButton from "./PortfolioLogoButton/PortfolioLogoButton";
 import ExtensionTitle from "./ExtensionTitle/ExtensionTitle";
 import CrazySmile from "./CrazySmile/CrazySmile.jsx";
-
+import "./Header.css"
 export default function Header(){
     return(
-        <Flex>
+
+        <Flex p='4'>
             <Box>
                 <PortfolioLogoButton/>
             </Box>
