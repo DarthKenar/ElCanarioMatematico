@@ -7,13 +7,14 @@ import { ChakraProvider, Container } from '@chakra-ui/react'
 
 import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
+import Body from './components/Body/Body.jsx';
 
 function App() {
   return (
     <ChakraProvider>
       <Header/>
       <Container maxW='2xl'>
-        Contenido de la extension
+        <Body/>
       </Container>
       <Footer/>
     </ChakraProvider>

@@ -1,5 +1,5 @@
-import { useEffect } from "react";
 import React from "react";
+import { useEffect } from "react";
 import CrazySmileJs from "./CrazySmile.js";
 export default function CrazySmile(){
   useEffect(() => {

@@ -1,6 +1,10 @@
 :root {
   --hover-button-color: #f1eef1;
 }
+* {
+  font-size: 16px;
+  font-family: "Poppins", serif;
+}
 body {
   width: 740px;
   border-color: red;
