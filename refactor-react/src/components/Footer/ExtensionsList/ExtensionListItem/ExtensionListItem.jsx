@@ -1,13 +1,14 @@
 import React from "react";
-import { ListItem, ListIcon } from "@chakra-ui/react";
+import { ListItem, ListIcon, Link} from "@chakra-ui/react";
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 export default function ExtensionsListItem(props){
   return(
-    <a href={props.url} target="_blank" rel="noopener noreferrer">
       <ListItem>
-        <ListIcon as={props.icon} color={props.colorIcon} />
-        {props.name}
+          <ListIcon as={props.icon} color={props.colorIcon} />
+          <Link href={props.url} isExternal>
+            {props.name} <ExternalLinkIcon mx='2px' />
+          </Link>
       </ListItem>
-    </a>
   )
 }
