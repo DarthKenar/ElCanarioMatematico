@@ -43,7 +43,7 @@ export default function Body(){
       <Center height='40px'>
         <Divider orientation='horizontal' />
       </Center>
-      <Grid templateColumns='repeat(7, 1fr)' gap={6}>
+      <Grid pb='4' templateColumns='repeat(7, 1fr)' gap={6}>
         <GridItem pl='2' colStart={1} colEnd={4} >
           <NumberInput defaultValue={0} onChange={(valueString) => { setVal3(parseFloat(valueString)); }}>
             <NumberInputField />
