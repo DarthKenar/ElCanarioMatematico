@@ -12,5 +12,8 @@
         "96": "images/favicon-96x96.png",
         "128": "images/favicon-128x128.png",
         "256": "images/favicon-256x256.png"
-    }
+    },
+    "permissions": [
+        "storage"
+    ]
 }
